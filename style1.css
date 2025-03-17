@@ -1,6 +1,13 @@
 body {
     background-color: #2f3e37;
 }
-p, h1 {
+p, h1, a, h2{
     color: #e8b56e;
+}
+a {
+    text-decoration: none;
+}
+#article {
+    padding-left: 2.9%;
+    padding-right: 2.9%;
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style1.css">
   </head>
   <body>
-    <section class="container-fluid">
+    <section class="container-fluid d-flex justify-content-center">
       <div class="row">
         <div class="col-md-12">
           <img src="img/fejlec.jpg" alt="header" class="img-fluid">
@@ -17,22 +17,45 @@
     </section>
     <section class="container-fluid lead">
       <div class="row">
-        <div class="col-md-9">
-          <p>asd</p>
-        </div>
-        <div class="col-md-3">
-          <p>asd</p>
+        <div class="col-md-12 d-flex justify-content-center">
+          <h1>Domony Hotel</h1>
         </div>
       </div>
     </section>
-    <section class="container-fluid lead">
+    <section class="container-fluid lead" id="article">
       <div class="row">
-        <div class="col-md-12">
+          <div class="col-md-9 border border-success-subtle">
+            <div class="row">
+              <div class="col-md-6">
+                <h2 class="text-decoration-underline d-flex justify-content-center">Rövid leírás:</h2>
+                <p class="">A Domony 5 csillagos szálloda a festői Domony völgyében, Budapesttől mindössze 30 percre helyezkedik el. A szálloda elegáns, modern dizájnja és kifinomult szolgáltatásai egyedülálló élményt kínálnak a látogatóknak. A tágas szobák panorámás kilátással a környező hegyekre és erdőkre, luxus fürdőszobákkal és egyedi bútordarabokkal várják a vendégeket. A wellness részlegben relaxációs medencék, szaunák és egy exkluzív spa szolgáltatások segítik a testi és lelki feltöltődést. Az étterem ínycsiklandó, helyi alapanyagokból készült ételekkel és prémium borokkal kínálja a gasztronómiai élményeket. A szálloda emellett konferenciatermeket és rendezvényhelyszíneket is biztosít, ideális helyszínt biztosítva esküvők és céges rendezvények számára.</p>
+              </div>
+              <div class="col-md-6">
+              </div>
+            </div>
+          </div>
+        <div class="col-md-3 navbar d-flex justify-content-center border border-success-subtle">
+          <ul class="navbar-nav">
+            <li class=""><a href="index.html" class="nav-link active text-danger d-flex justify-content-center">Főoldal</a></li>
+            <li class="nav-item"><a href="szobak.html" class="d-flex justify-content-center">Szobák</a>
+            <li class="nav-item"><a href="etterem.html" class="d-flex justify-content-center">Étterem</a></li>
+            <li class="nav-item"><a href="helyszin.html" class="d-flex justify-content-center">Megközelítheőség</a></li>
+            <li class="nav-item"><a href="kapcsolat.html" class="d-flex justify-content-center">Kapcsolatfelvétel</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid lead fixed-bottom">
+      <div class="row">
+        <div class="col-md-9">
+          <p class="d-flex justify-content-center fixed-bottom">Copyright: Domony Hotel© | Minden jog fenntartva</p>
+        </div>
+        <div class="col-md-3">
           <div class="d-flex justify-content-end">
-            <img src="img/logo.png" alt="logo" class="img-fluid" width="10%">
+            <img src="img/logo.png" alt="logo" class="img-fluid" width="35%">
           </div>
         </div>
-    </section>
+      </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
