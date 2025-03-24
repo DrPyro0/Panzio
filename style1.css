@@ -11,3 +11,13 @@ a {
     padding-left: 2.9%;
     padding-right: 2.9%;
 }
+a:hover {
+    text-decoration: underline;
+}
+.navbar {
+    list-style: none;
+}
+.navbar > li{
+    padding-left:40px;
+    padding-right:40px;
+}
